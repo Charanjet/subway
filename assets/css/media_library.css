@@ -1,0 +1,31 @@
+/** * promos mobile height issue*/
+
+.cms body.cms .promotions_wrapper .promotions_h_text {
+  min-height: 415px;
+}
+
+@media screen and (max-width: 669px) {
+  .cms body.cms .promotions_wrapper.header .promotions_h_text {
+    min-height: 400px;
+  }
+
+  .cms
+    body.cms
+    .promotions_wrapper.header
+    .promotions_h_text:lang(fr) {
+    min-height: 500px;
+  }
+
+  .cms body.cms .promotions_wrapper .promotions_h_text .decreption {
+    min-height: unset;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .cms body.cms .promotions_wrapper .promotions_h_text {
+    min-height: 385px;
+  }
+}
+footer.component_footer {
+  clear: both;
+}
